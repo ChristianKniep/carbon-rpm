@@ -1,7 +1,7 @@
 %define name carbon
-%define version 0.9.9
-%define unmangled_version 0.9.9
-%define release 1
+%define version %TAG%
+%define unmangled_version %TAG%
+%define release %RELEASE%
 
 Summary: Backend data caching and persistence daemon for Graphite
 Name: %{name}
